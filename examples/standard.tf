@@ -63,7 +63,7 @@ resource "azurerm_key_vault" "keyvault" {
 }
 
 module "mysql_example" {
-  source = "git::https://github.com/canada-ca-terraform-modules/terraform-azurerm-mysql.git?ref=v2.0.0"
+  source = "git::https://github.com/canada-ca-terraform-modules/terraform-azurerm-mysql.git?ref=v2.1.2"
 
   name = "mysqlservername"
   databases = {
